@@ -1,0 +1,42 @@
+{
+  "name": "next-hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/styled-engine-sc": "latest",
+    "@types/express": "^4.17.15",
+    "@types/fs-extra": "^9.0.13",
+    "@types/react-highlight": "^0.12.5",
+    "busboy": "latest",
+    "express": "latest",
+    "fs-extra": "latest",
+    "iron-session": "^6.3.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-drag-drop-files": "^2.3.8",
+    "react-h5-audio-player": "latest",
+    "react-highlight": "latest",
+    "react-icons": "latest",
+    "styled-components": "latest"
+  },
+  "devDependencies": {
+    "@types/busboy": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}

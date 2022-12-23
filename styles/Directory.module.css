@@ -1,0 +1,38 @@
+
+.table, .table thead, .table tbody, .table tr{
+  width:100%;
+  align-items: flex-start;
+  border:none;
+  max-width:1700px;
+  margin:auto;
+}
+
+.table tr{
+  height:30px;
+}
+
+.table thead td{
+  color:#444;
+}
+
+.table i{
+  font-size: 23px;
+  text-align: center;
+  line-height: 23px;
+  color:#48E;
+}
+
+.dir-list-icon{
+  width:30px;
+}
+
+.dir-list-size{
+  width:100px;
+} 
+.dir-list-ctime, .dir-list-mtime{
+  width:130px;
+}
+
+.table tbody tr:hover{
+  background-color:rgb(0,0,0,0.3);
+}
