@@ -29,6 +29,7 @@
   "devDependencies": {
     "@types/busboy": "latest",
     "@types/node": "latest",
-    "@types/react": "latest"
+    "@types/react": "latest",
+    "typescript": "4.9.4"
   }
 }
