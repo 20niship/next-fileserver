@@ -25,10 +25,9 @@ export default withIronSessionApiRoute(
       };
       await req.session.save();
       res.send({ ok: true });
+      return;
     }
     res.status(535).send("authentication failed")
-    return;
-
   },
   session_settings
 );

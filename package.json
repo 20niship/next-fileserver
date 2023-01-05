@@ -13,7 +13,6 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
-    "@mui/styled-engine-sc": "latest",
     "@types/express": "^4.17.15",
     "@types/fs-extra": "^9.0.13",
     "@types/react-highlight": "^0.12.5",
@@ -26,17 +25,11 @@
     "react-dom": "latest",
     "react-drag-drop-files": "^2.3.8",
     "react-h5-audio-player": "latest",
-    "react-highlight": "latest",
-    "react-icons": "latest",
-    "styled-components": "latest"
+    "react-highlight": "latest"
   },
   "devDependencies": {
     "@types/busboy": "latest",
     "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "typescript": "latest"
+    "@types/react": "latest"
   }
 }
