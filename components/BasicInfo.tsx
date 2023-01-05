@@ -45,6 +45,13 @@ export default function BasicInfo(props: Props) {
     setStackSeverity("success");
   };
 
+  const appendFile = (files: File[]) => {
+    const dt = new DataTransfer();
+    if (selectedFile != null && selectedFile.length >= 1)
+      Array.from(selectedFile).forEach(f => dt.items.add(f))
+    files.map(f => dt.items.add(f));
+    setSelectedFile(dt.files);
+  }
 
   const [dirname, setDirname] = useState("");
 
@@ -54,7 +61,7 @@ export default function BasicInfo(props: Props) {
   const [selectedFile, setSelectedFile] = useState<FileList | null>({} as FileList);
 
   const mkdirFormClose = () => { setMkdirFormOpen(false); };
-  const UploadFormClose = () => { setUploadFormOpen(false); };
+  const UploadFormClose = () => { setSelectedFile(null); setUploadFormOpen(false); };
   const deleteFormClose = () => { setDeleteFormOpen(false); };
 
   const api_mkdir = async () => {

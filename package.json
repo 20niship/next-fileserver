@@ -23,7 +23,6 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-drag-drop-files": "^2.3.8",
     "react-h5-audio-player": "latest",
     "react-highlight": "latest"
   },
