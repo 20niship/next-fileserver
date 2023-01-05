@@ -73,3 +73,4 @@ storage/
 tsconfig.tsbuildinfo
 
 .env
+out/
